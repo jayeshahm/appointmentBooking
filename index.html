@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule an appointment</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="#" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Schedule an Appointment</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Patient Name</label>
+          <select id="patient-dropdown">
+            <option value="" disabled selected hidden>Select a Patient</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label>Doctor Name</label>
+          <select id="doctor-dropdown">
+            <option value="" disabled selected hidden>Select a doctor</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label>Appointment Date</label>
+          <input type="date" id="day" name="date" style="width: 100%"/>
+        </div>
+        <div class="form-control">
+          <label>Appointment Time</label>
+          <select id="time-dropdown">
+            <option value="" disabled selected hidden>
+              Select a time slot
+            </option>
+          </select>
+        </div>
+      </form>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "patients":[
+        {
+            "patientId":"p-1",
+            "patientName":"Ajay",
+            "doctorId":"Shekar"
+        },
+        {
+            "patientId":"p-2",
+            "patientName":"Ragu",
+            "doctorId":"Arjun"
+        },
+        {
+            "patientId":"p-3",
+            "patientName":"Harsha",
+            "doctorId":"Sheela"
+        },
+        {
+            "patientId":"p-4",
+            "patientName":"Veena",
+            "doctorId":"Arjun"
+        }
+    ]
+}
